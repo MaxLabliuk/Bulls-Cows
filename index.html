@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bulls & Cows</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">BULLS & COWS</h1>
+        <div class="table">
+            <input class="input" type="text" id="input" placeholder="Enter 4 different digits">
+            <p class="wrong-input" id="wrong-input">Wrong input. Please enter 4 different digits number</p>
+            <button class="btn" id="btn" onclick="guess()">Enter</button>
+            <div class="results">
+                <div class="left-column" id="left-column">
+                        <p><div class="turns">10 </div> attempts left</p>
+                        <img class="good-luck" src="images/images.jfif" alt="">
+                </div>
+                <div class="right-column" id="right-column">
+                        <p class="hello"><span class="number"></span></p>
+                </div>
+            </div>
 
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

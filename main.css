@@ -1,1 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Calistoga', cursive;
+}
+
+.container {
+    background-image: url(images/mini_magick20180828-10593-18heaya.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 50px auto;
+    font-size: 48px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 530px;
+    height: 380px;
+    transform: translateY(-80px);
+    background: yellow;
+    border-radius: 20px;
+}
+
+.input {
+    margin: 20px auto 0;
+    padding: 6px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(115, 128, 0);
+    outline: none;
+    color: rgb(115, 128, 0);
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 5px auto 30px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: rgb(115, 128, 0);
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+.results {
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-column {
+    text-align: center;
+}
+
+.right-column {
+    border-radius: 20px;
+    width: 50%;
+    border: 1px solid rgb(115, 128, 0);
+    text-align: center;
+}
+
+.wrong-input {
+    margin: 0 auto;
+    visibility: hidden;
+    color: red;
+}
+
+.good-luck {
+    width: 200px;
+    height: 170px;
+    margin-top: 20px;
+}
