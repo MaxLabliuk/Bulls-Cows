@@ -1,1 +1,1 @@
-[DEMO LINK](https://MaxLabliuk.github.io/layout_catalog/)
+[DEMO LINK](https://MaxLabliuk.github.io/Bulls-Cows/)
