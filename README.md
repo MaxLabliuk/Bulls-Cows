@@ -1,1 +1,1 @@
-[DEMO LINK](https://MaxLabliuk.github.io/Bulls-Cows/)
+[Game](https://MaxLabliuk.github.io/Bulls-Cows/)

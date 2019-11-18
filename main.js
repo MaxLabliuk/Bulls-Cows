@@ -5,7 +5,6 @@ let getNum = function() {
     let newNum = Math.round(Math.random() * 8) + 1;
     if (number.indexOf(newNum) < 0) {
       number.push(newNum);
-      
     }
   }
   return number;
