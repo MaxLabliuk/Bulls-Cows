@@ -1,1 +1,1 @@
-[DEMO LINK](https://MaxLabliuk.github.io/Bulls-Cows/)
+[DEMO LINK](https://maxlabliuk.github.io/Bulls-Cows//)
