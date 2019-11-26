@@ -74,7 +74,7 @@ let writeTurn = function(enteredNumber,generatedNumber, score) {
 }
 
 let endGame = function(status, turns, generatedNumber) {
-  // document.querySelector('.number').innerHTML = generatedNumber;
+  document.querySelector('.number').innerHTML = generatedNumber;
   alert('You ' + status + '\r\nGuessed number is: ' + generatedNumber.join(''));
   window.location.reload();
 };
