@@ -14,8 +14,13 @@ let generatedNumber = getNum();
 
 let guess = function () {
   let playersNumber = document.querySelector('#input').value;
+  if (playersNumber.length > 4) {
+    let wrong = document.querySelector('.wrong-input');
+    wrong.style.visibility= 'visible';
+    return undefined;
+  }
   let arr = [];
-
+  console.log(arr)
   for (let i = 0; i < 4; i++) {
     let newUserArr = parseInt(playersNumber.substr(i, 1));
     arr.push(newUserArr);
@@ -32,7 +37,7 @@ let BullsandCows = function (enteredNumber) {
   let turns = parseInt(document.querySelector('.turns').innerHTML);
 
 
-  if ([...new Set(enteredNumber)].length !== 4 || enteredNumber == isNaN()) {
+  if ([...new Set(enteredNumber)].length !== 4 || !enteredNumber) {
     let wrong = document.querySelector('.wrong-input');
     wrong.style.visibility= 'visible';
     return undefined;
@@ -70,7 +75,7 @@ let writeTurn = function(enteredNumber,generatedNumber, score) {
 
 let endGame = function(status, turns, generatedNumber) {
   // document.querySelector('.number').innerHTML = generatedNumber;
-  alert('You ' + status + '\r\nЗагаданное число: ' + generatedNumber.join(''));
+  alert('You ' + status + '\r\nGuessed number is: ' + generatedNumber.join(''));
   window.location.reload();
 };
 console.log(generatedNumber);
