@@ -59,6 +59,14 @@ body {
     outline: none;
 }
 
+.btn:hover {
+    cursor: pointer;
+    color: rgb(115, 128, 0);
+    /* border: 1px solid rgb(115, 128, 0); */
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
 .results {
     height: 220px;
     display: flex;
